@@ -1,0 +1,33 @@
+footer {
+  margin-top: 2rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #888888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footer-container img {
+  width: 5.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-container .footer-stars {
+  font-size: 1.5rem;
+  color: #cccccc;
+}
+  
+  

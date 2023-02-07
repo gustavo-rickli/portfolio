@@ -1,0 +1,39 @@
+header h1 {
+  color: #222222;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.7rem;
+  font-weight: 300;  
+}
+
+header .sub-title {
+  color: #666666;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  -webkit-text-size-adjust: 100%;
+  letter-spacing: 1px;
+}
+
+
+header {
+  margin: auto;
+  width: 68%;
+
+  margin-top: 5vh;
+  margin-bottom: 6vh;
+}
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+.header-conteiner h1 {
+  display: block;
+}
+
+.header-conteiner img {
+  width: 6.5rem;
+}

@@ -1,0 +1,57 @@
+.apresentation {
+  display: table;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.imagem {
+  display: table-cell;
+  float: left;
+  width: 30%;
+}
+
+.text {
+  display: table-cell;
+  float: left;
+  width: 70%;
+}
+
+.text p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222222;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: start;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+}
+
+.apresentation .image img {
+  float: right;
+  width: 13em;
+  border: 0.15em solid lightgrey;
+  border-radius: 100%;
+  margin-right: 2.5rem;
+}
+
+.apresentation h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B22234;
+  font-weight: 400;
+  font-size: 2.4rem; 
+
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+
+body {
+  background: linear-gradient(#eeeeee, #f3f3f3, #fff, #fff);
+  color: #000;
+  font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+}
